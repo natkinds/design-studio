@@ -1,0 +1,190 @@
+.online-control {
+    padding: 0 0 74px;
+}
+
+.online-control__title {
+    margin-top: -324px;
+    color: #FFFFFF;
+}
+
+.online-control__title-img {
+    background-image: url('../img/camera.svg');
+}
+
+.online-control__video {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 817px;
+    height: 434px;
+    margin: 0 auto;
+    margin-bottom: 62.5px;
+    background-image: url('../img/video-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.online-control__video::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000CC;
+}
+
+.online-control__video-button {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 85px;
+    height: 85px;
+    background-image: url('../img/video-btn.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.online-control__divider {
+    width: 55px;
+    height: 1.54px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    background-color: #E3B873;
+    border-radius: 30px;
+}
+
+.online-control__text {
+    max-width: 681px;
+    margin: 0 auto;
+    margin-bottom: 91.5px;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+}
+
+/* Делаем форму */
+
+.online-control__form {
+    max-width: 769px;
+    margin: 0 auto;
+}
+
+.online-control__form_max-width-375px {
+    display: none;
+}
+
+.online-control__form-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 33px;
+}
+
+.online-control__form-item  {
+    display: block;
+}
+
+.online-control__form-item_name, .online-control__form-item_phone {
+    width: 231px;
+}
+
+.online-control__form-item-name {
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    line-height: 21px;
+    color: #36363680;
+}
+
+.online-control__input {
+    display: block;
+    width: 100%;
+    padding: 7px 0;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #3636364D;
+    outline: none;
+}
+
+.online-control__input::placeholder {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.online-control__form-agree_max-width-375px {
+    display: none;
+}
+
+.online-control__agree_max-width-375px {
+    margin: 0 0 63px;
+}
+
+.online-control__form-button {
+    display: block;
+    width: 200px;
+    padding: 0 75px;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #E3B873;
+    border-radius: 2px;
+}
+
+@media (max-width: 375px) {
+    .online-control {
+        padding: 29px 0 30px;
+        background-color: #131313;
+    }
+
+    .online-control__title {
+        margin-top: 0;
+    }
+
+    .online-control__video {
+        height: 207px;
+        margin: 0 0 28px;
+    }
+
+    .online-control__video-button {
+        width: 37px;
+        height: 37px;
+        background-image: url('../img/video-btn.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+    }
+
+    .online-control__divider {
+        margin-bottom: 21px;
+    }
+
+    .online-control__text {
+        max-width: 100%;
+        margin: 0 0 61px;
+        font-size: 11px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    .online-control__form {
+        display: none;
+    }
+
+    .online-control__form_max-width-375px {
+        display: block;
+        margin-bottom: -56px;
+    }
+
+    .online-control__form-item_phone {
+        margin-bottom: 26px;
+    }
+}

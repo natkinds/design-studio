@@ -1,0 +1,121 @@
+.contact-form {
+    width: 883px;
+    margin: 0 auto;
+    margin-top: -272px;
+    margin-bottom: 52px;
+    padding: 34px 181.5px;
+    background-color: #181818;
+}
+
+.contact-form__form {
+    margin: 0 auto;
+}
+
+.contact-form__items-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+
+.contact-form__title {
+    margin-bottom: 46px;
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-form__item {
+    display: block;
+}
+
+.contact-form__item_name, .contact-form__item_phone {
+    width: 231px;
+}
+
+.contact-form__item_question {
+    width: 100%;
+    margin-bottom: 46px;
+}
+
+.contact-form__item-name {
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF80;
+}
+
+.contact-form__input {
+    display: block;
+    width: 100%;
+    padding: 7px 0;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: #181818;
+    border: none;
+    border-bottom: 1px solid #FFFFFF26;
+    outline: none;
+}
+
+.contact-form__input::placeholder {
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.contact-form__button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 54px;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #E3B873;
+}
+
+.contact-form__agree {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 375px) {
+    .contact-form {
+        width: 100%;
+        margin: 0 0 46px;
+        padding: 0;
+        background-color: inherit;
+    }
+
+    .contact-form__items-wrap {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .contact-form__item_name, .contact-form__item_phone {
+        width: 100%;
+        margin-bottom: 63px;
+    }
+
+    .contact-form__item_question {
+        margin-bottom: 21px;
+    }
+
+    .contact-form__agree {
+        margin: 0 0 67px;
+    }
+
+    .contact-form__button {
+        display: block;
+        margin: 0;
+        width: 100%;
+        padding: 20px 54px;
+    }
+}

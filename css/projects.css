@@ -1,0 +1,215 @@
+.projects {
+    padding: 107px 0 416px;
+    background-color: #131313;
+}
+
+.projects__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.projects__desc {
+    width: 442px;
+}
+
+.projects__title {
+    width: 253px;
+    margin-bottom: 34px;
+    font-family: 'Yeseva One';
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.projects__text {
+    margin-bottom: 42px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.projects__desc-wrap {
+    display: grid;
+    grid-template-columns: 156px 1fr;
+    gap: 34px;
+    grid-template-areas: 
+        "city area"
+        "time cost";
+    margin-bottom: 79px;
+}
+
+.projects__desc-wrap_max-width-375px {
+    display: none;
+}
+
+.projects__desc-city {
+    grid-area: city;
+}
+
+.projects__desc-area {
+    grid-area: area;
+}
+
+.projects__desc-time {
+    grid-area: time;
+}
+
+.projects__desc-cost {
+    grid-area: cost;
+}
+
+.projects__desc-title {
+    margin-bottom: 9px;
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.projects__desc-text {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.projects__photos {
+    position: relative;
+}
+
+.projects__photo-titles {
+    display: flex;
+    justify-content: space-between;
+    width: 623px;
+    margin-bottom: 45px;
+}
+
+.projects__radio {
+    display: none;
+}
+
+.projects__photo-title {
+    font-family: 'Yeseva One';
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF4D;
+    border-bottom: 1px solid #131313;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.projects__radio:checked + .projects__photo-title {
+    color: #E3B873;
+    border-color: #E3B873;
+}
+
+.projects__img2 {
+    display: none;
+}
+
+.projects__photos-buttons {
+    position: absolute;
+    top: calc(50% - 18px);
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 14px;
+}
+
+.projects__photos-btn {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: url('../img/arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.projects__photos-btn_prev {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 375px) {
+    .projects {
+        padding: 36px 0 29px;
+    }
+
+    .projects__wrapper {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .projects__desc {
+        width: 100%;
+    }
+
+    .projects__title {
+        width: 223px;
+        margin: 0 auto;
+        margin-bottom: 22px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .projects__text {
+        width: 311px;
+        margin: 0 auto;
+        margin-bottom: 36px;
+        font-size: 14px;
+        line-height: 27px;
+        font-size: 11px;
+        line-height: 17px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .projects__desc-wrap, .projects__desc-buttons {
+        display: none;
+    }
+
+    .projects__photos {
+        margin-bottom: 36px;
+    }
+
+    .projects__photo-titles {
+        display: none;
+    }
+
+    .projects__img1 {
+        display: none;
+    }
+
+    .projects__img2 {
+        display: block;
+    }
+
+    .projects__photos-buttons {
+        display: flex;
+    }
+
+    .projects__desc-wrap_max-width-375px {
+        display: grid;
+        column-gap: 4px;
+        row-gap: 27px;
+        margin-bottom: 0;
+    }
+
+    .projects__desc-title {
+        margin-bottom: 11px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    
+    .projects__desc-text {
+        font-size: 11px;
+        line-height: 15px;
+    }
+}

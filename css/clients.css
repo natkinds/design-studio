@@ -1,0 +1,121 @@
+.clients {
+    padding: 110px 0 355px;
+    background: url('../img/frame-left.png') no-repeat bottom left,
+                url('../img/frame-right.png') no-repeat bottom right;
+}
+
+.clients__title-img {
+    background-image: url('../img/handshake.svg');
+}
+
+.clients__text {
+    width: 381px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+    font-size: 18px;
+    line-height: 29.46px;
+    text-align: center;
+}
+
+.clients__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients__feedback {
+    width: 376px;
+    padding: 24px 20px 90px;
+    box-shadow: 0px 10px 50px 0px #0000000A;
+}
+
+.clients__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 277px;
+    margin-bottom: 23px;
+}
+
+.clients__photo {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+}
+
+.clients__photo_fedosova {
+    background-image: url('../img/client-fedosova.png');
+    background-position: center;
+    background-size: 146.15px 96.9px;
+}
+
+.clients__photo_afanasyev {
+    background-image: url('../img/client-afanasyev.png');
+    background-position: top center;
+    background-size: 146.4px 103.5px;
+}
+
+.clients__photo_kiriev {
+    background-image: url('../img/client-kiriev.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.clients__name {
+    width: 178px;
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+}
+
+.clients__feedback-text {
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+}
+
+.clients__repair-info {
+    display: flex;
+    width: fit-content;
+    margin-top: -27px;
+    box-shadow: 5px 5px 20px 0px #E3B87380;
+}
+
+.clients__flat-square, .clients__repair-time {
+    display: flex;
+    align-items: center;
+    padding: 11px 14px 11px 17px;
+    background-color: #E3B873;
+}
+
+.clients__flat-square {
+    border-right: 1.5px solid #FFFFFF;
+}
+
+.clients__flat-square-graphics {
+    width: 32.4px;
+    height: 31.4px;
+    margin-right: 15px;
+    background-image: url('../img/flat-square-graphics.svg');
+}
+
+.clients__repair-time-graphics {
+    width: 32.8px;
+    height: 31.4px;
+    margin-right: 15px;
+    background-image: url('../img/repair-time-graphics.svg');
+}
+
+.clients__flat-square-value, .clients__repair-time-value {
+    font-family: 'Yeseva One';
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+@media (max-width: 375px) {
+    .clients {
+        display: none;
+    }
+}

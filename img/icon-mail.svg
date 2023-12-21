@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="71" height="29" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="Group 2">
+   <g id="Group 3">
+    <g id="Group 2_2">
+     <circle cx="14" cy="14.32" fill="#E3B873" id="Ellipse" r="14"/>
+     <g id="Group">
+      <g id="Group_2">
+       <path d="m8.4,9.12l11.2,0c0.77,0 1.4,0.63 1.4,1.4l0,8.4c0,0.77 -0.63,1.4 -1.4,1.4l-11.2,0c-0.77,0 -1.4,-0.63 -1.4,-1.4l0,-8.4c0,-0.77 0.63,-1.4 1.4,-1.4z" id="Vector" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+       <path d="m21,10.52l-7,4.9l-7,-4.9" id="Vector_2" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="Group 4"/>
+  </g>
+ </g>
+</svg>

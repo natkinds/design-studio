@@ -1,0 +1,12 @@
+.main__container {
+    max-width: 1440px;
+    padding: 0 134px;
+    margin: 0 auto;
+}
+
+@media (max-width: 375px) {
+    .main__container {
+        max-width: 375px;
+        padding: 0 18px;
+    }
+}

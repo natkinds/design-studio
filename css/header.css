@@ -1,0 +1,22 @@
+.header {
+    padding: 24px 0 22px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background-color: #131313;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: minmax(max-content, 275px) minmax(min-content, 581px) minmax(max-content, 194px) minmax(max-content, 206px);
+    align-items: center; */
+}
+
+@media (max-width: 375px) {
+    .header {
+        padding-top: 23px;
+    }
+}

@@ -1,0 +1,99 @@
+.hero {
+    position: relative;
+    padding: 194px 0 208px;
+    color: #ffffff;
+    background: #000000B2;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero__title {
+    width: 600px;
+    margin-bottom: 19px;
+    font-family: 'Yeseva One';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+
+.hero__text {
+    width: 505px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.hero__title_orange {
+    color: #E3B873;
+}
+
+.hero__button-block  {
+    display: flex;
+    justify-content: space-between;
+    width: 434px;
+}
+
+.hero__button {
+    width: 207px;
+    padding: 20px 0;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.hero__calc-button {
+    padding-right: 41px;
+    padding-left: 41px;
+    background-color: #E3B873;
+}
+
+.hero__submit-button {
+    padding-right: 22px;
+    padding-left: 22px;
+    border: 1px solid #FFFFFF;
+}
+
+@media (max-width: 375px) {
+    .hero {
+        padding: 85px 0 61px;
+    }
+
+    .hero__title {
+        width: 100%;
+        margin-bottom: 16px;
+        font-size: 23px;
+        line-height: 31px;
+    }
+
+    .hero__text {
+        width: 100%;
+        margin-bottom: 32px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .hero__button-block {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero__button {
+        width: 100%;
+        padding: 19px 0;
+    }
+
+    .hero__calc-button {
+        margin-bottom: 26px;
+    }
+}

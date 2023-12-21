@@ -1,0 +1,94 @@
+.order-measurment {
+    padding-top: 106px;
+    padding-bottom: 242px;
+    background-image: url('../img/bg-houses.png');
+    background-repeat: no-repeat;
+}
+
+.order-measurment__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.order-measurment__advantages {
+    width: 524px;
+    padding-left: 141px;
+}
+
+.order-measurment__advantages-list {
+
+}
+
+.order-measurment__advantages-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-measurment__advantages-item:not(:last-child) {
+    margin-bottom: 86px;
+}
+
+.order-measurment__advantages-item-number {
+    display: block;
+    width: 58px;
+    height: 58px;
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #E3B873;
+    border: 8px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.order-measurment__advantages-item-text {
+    width: 320px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+
+.order-measurment__form-block {
+    width: 506px;
+    margin-bottom: 38px;
+    padding: 28px 49px 27px;
+    background-color: #131313;
+}
+
+.order-measurment__form-title {
+    width: 225px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;  
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.order-measurment__discount {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-left: 32px;
+}
+
+.order-measurment__discount-img {
+
+}
+
+.order-measurment__discount-text {
+    width: 220px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+}
+
+@media (max-width: 375px) {
+    .order-measurment {
+        display: none;
+    }
+}

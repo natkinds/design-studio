@@ -1,0 +1,130 @@
+.repair-types {
+    padding: 74px 0 124px;
+}
+
+.repair-types__title {
+
+}
+
+.repair-types__subtitle {
+    margin-bottom: 13px;
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.repair-types__title-img {
+    background-image: url('../img/tools.svg');
+}
+
+.repair-types__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.repair-types__item {
+    width: 392px;
+}
+
+.repair-types__img-block {
+    height: 421px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.repair-types__img-block_redecor {
+    background-image: url('../img/redecorating.png');
+}
+
+.repair-types__img-block_overhaul {
+    background-image: url('../img/overhaul.png');
+}
+
+.repair-types__img-block_designer {
+    background-image: url('../img/designer-repair.png');
+}
+
+.repair-types__description {
+    margin-top: -127px;
+    padding: 25px 34px 49px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 20px 0px #00000008;
+}
+
+.repair-types__description-wrap {
+    width: 330px;
+    margin: 0 auto;
+}
+
+.repair-types__description-list {
+    padding-left: 16px;
+    list-style: disc;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
+
+.repair-types__price {
+    display: block;
+    width: 228px;
+    margin-top: -27px;
+    padding: 17px 0;
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #E3B873;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 5px 5px 10px 0px #E3B8734D;
+}
+
+@media (max-width: 375px) {
+    .repair-types {
+        padding: 83px 0 25px;
+    }
+
+    .repair-types__list {
+        flex-direction: column;
+    }
+
+    .repair-types__item {
+        width: 100%;
+    }
+
+    .repair-types__item:not(:last-child) {
+        margin-bottom: 59px;
+    }
+
+    .repair-types__img-block {
+        height: 365px;
+    }
+
+    .repair-types__description {
+        margin-top: -142px;
+        padding: 21px 31px 37px;
+    }
+    
+    .repair-types__description-wrap {
+        width: 270px;
+        margin: 0;
+    }
+
+    .repair-types__subtitle {
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .repair-types__description-list {
+        line-height: 25px;
+    }
+
+    .repair-types__price {
+        width: 190px;
+        margin-top: -21px;
+        padding: 11px 0;
+        font-size: 15px;
+    }
+}
